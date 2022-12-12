@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'TT Norms Pro';
+    font-weight: 800;
+}
+li {
+    list-style: none;
+}
+.film-block {
+    width: 1280px;
+    height: 700px;
+    background: url(../img/mainImg.jpg);
+    display: flex;
+    flex-direction: column;
+    
+}
+@mixin flex() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
