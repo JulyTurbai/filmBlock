@@ -1,0 +1,21 @@
+.sound-control {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    
+    &__button {
+        @include flex;
+        width: 70px;
+        height: 70px;
+        border: 2px solid white;
+        border-radius: 50%;
+        background: white;
+        margin: 20px;
+    }
+    
+    &__img {
+        width: 30px;
+        height: 30px;
+    }
+}
+

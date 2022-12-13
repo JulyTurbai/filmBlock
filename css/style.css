@@ -1,8 +1,32 @@
-.header {
-  width: 100%;
-  height: 80px;
-  background: black;
-  padding: 20px 0;
+.footer {
+  height: 200px;
+  margin-top: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer img {
+  width: 150px;
+  margin-right: 30px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.footer__menu {
+  margin-right: 30px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.footer__menu_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+.footer__menu_stock {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12,6 +36,183 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 60px;
+  height: 20px;
+  border: 2px solid #FF4500;
+  background: #FF4500;
+  border-radius: 3px;
+  color: white;
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.footer__menu_elements {
+  margin-right: 30px;
+}
+.footer__menu_subscribe {
+  color: #FF4500;
+  margin-right: 30px;
+}
+.footer__menu_little-name {
+  margin-right: 30px;
+}
+.footer__menu_coordinate {
+  margin-right: 30px;
+}
+.footer__menu .film-name {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.footer__menu_reaction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+.footer__menu_watch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 150px;
+  height: 50px;
+  border: 2px solid orange;
+  border-radius: 3px;
+  background: orange;
+  margin-right: 30px;
+}
+.footer__menu_watch .play {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+}
+.footer__menu_add-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 2px;
+  margin-right: 30px;
+}
+.footer__menu_add-button img {
+  width: 40px;
+  margin: 0;
+}
+.footer__menu .footer__menu_like {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  margin-right: 30px;
+}
+.footer__menu .footer__menu_dislike {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+}
+.footer__menu .footer__reaction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 13px;
+  color: silver;
+  margin-top: 10px;
+}
+.footer__menu .footer__reaction_explain {
+  margin-right: 45px;
+}
+
+.sound-control {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+.sound-control__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70px;
+  height: 70px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background: white;
+  margin: 20px;
+}
+.sound-control__img {
+  width: 30px;
+  height: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "TT Norms Pro";
+  font-weight: 800;
+}
+
+li {
+  list-style: none;
+}
+
+.film-block {
+  width: 1280px;
+  height: 700px;
+  background: url(../img/mainImg.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 80px;
+  background: black;
+  padding: 20px 0;
 }
 
 .header__menu {
@@ -34,7 +235,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: white;
+  color: orangered;
   margin-right: 30px;
   text-transform: uppercase;
   font-family: "TT Norms Pro";
@@ -42,6 +243,7 @@
 }
 .header__menu_watching .items {
   margin-right: 30px;
+  border-color: white;
 }
 .header__menu .items:last-child {
   margin-right: 0;
@@ -90,35 +292,6 @@
   color: white;
   text-transform: uppercase;
   margin-left: 20px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body {
-  font-family: "TT Norms Pro";
-  font-weight: 800;
-}
-
-li {
-  list-style: none;
-}
-
-.film-block {
-  width: 1280px;
-  height: 700px;
-  background: url(../img/mainImg.jpg);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 @font-face {

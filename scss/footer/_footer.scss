@@ -1,0 +1,113 @@
+.footer {
+    height: 200px;
+    margin-top: auto;
+    display: flex;
+
+    img {
+        width: 150px;
+        margin-right: 30px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+}
+.footer__menu {
+    margin-right: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    
+    &_info {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+    &_stock {
+        @include flex;
+        width: 60px;
+        height: 20px;
+        border:2px solid#FF4500;
+        background:#FF4500 ;
+        border-radius: 3px;
+        color: white;
+        margin-right: 10px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    &_elements {
+        margin-right: 30px;
+    }
+    &_subscribe {
+        color: #FF4500;
+        margin-right: 30px;
+
+    }
+    &_little-name {
+        margin-right: 30px;
+    }
+    &_coordinate {
+        margin-right: 30px;
+    }
+    .film-name {
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    &_reaction {
+        display: flex;
+        margin-top: 20px;
+        
+    }
+    &_watch {
+        @include flex;
+        width: 150px;
+        height: 50px;
+        border: 2px solid orange;
+        border-radius: 3px;
+        background: orange;
+        margin-right: 30px;
+        
+        .play {
+            width: 30px;
+            height: 30px;
+            margin: 0;
+        }
+      
+    }
+    &_add-button {
+        @include flex;
+        width: 90px;
+        height: 50px;
+        border: 2px solid white;
+        border-radius: 2px;
+        margin-right: 30px;
+        
+        img {
+            width: 40px;
+            margin: 0;
+        }
+    
+    }
+    .footer__menu_like {
+        width: 50px;
+        height: 50px;
+        margin: 0;
+        margin-right: 30px;
+    }
+    .footer__menu_dislike {
+        width: 50px;
+        height: 50px;
+        margin: 0;
+    }
+    .footer__reaction {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        color:silver ;
+        margin-top: 10px;
+        
+        &_explain {
+            margin-right: 45px;
+        }
+    }
+
+}
